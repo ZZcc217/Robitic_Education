@@ -1,21 +1,3 @@
-// Cheng Zhao
-// FPGA for Robotics Education
-//------------------------------------------------------------------------------
-// This is a more advanced motor driver that rotates the motor by a given number
-// of degrees upon activation. Uses the speedctl module to generate PWM.
-//
-// inputs:
-//      clk     -- a 16MHz clock
-//      rst     -- active high reset
-//      enable  -- start the action
-//      encoder -- the encoder signal
-//      ndegs   -- number of degrees to rotate
-// output:
-//      PWM     -- the pulse width modulation used to drive the motor
-// parameters:
-//      SPEED   -- degrees per second 
-//
-
 module stepctl (
     input clk,
     input rst,
