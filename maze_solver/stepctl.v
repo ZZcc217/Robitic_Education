@@ -1,18 +1,3 @@
-// Cheng Zhao
-// FPGA for Robotics Education
-//------------------------------------------------------------------------------
-// A step control module without PWM generation
-//
-// inputs:
-//      clk     -- a 16MHz clock
-//      rst     -- active high reset
-//      enable  -- start the action
-//      encoder -- the encoder signal
-//      ndegs   -- number of degrees to rotate
-// output:
-//      motor_en     -- if motor should be enabled
-//
-
 module stepctl (
     input clk,
     input rst,
