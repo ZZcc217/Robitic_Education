@@ -1,4 +1,3 @@
-
 module rising (
     input clk,
     input signal,
