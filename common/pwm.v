@@ -1,11 +1,3 @@
-// Eric Schwarz Iglesias
-//-------------------------------------------------------------------------------------------
-// This is a generic module that outputs a pwm signal at 1kHz
-// this means that the PWM period is 1ms (16000 WF_CLK cycles)
-// the module takes a 16MHz clock
-// an enable input that serves as a active low reset
-// timeon is a value form 0 to 16000 that determines the duty cyle of the signal
-// PWM is the output
 module pwm (
     input wire clk,
     input enable,
