@@ -1,10 +1,3 @@
-// Cheng Zhao
-// FPGA for Robotics Education
-//------------------------------------------------------------------------------
-// This module implements a maze solver controller.
-// The controller implements the "right-hand algorithm" (turning right whenever
-// possible).
-
 module fpga_top (
     input wire WF_CLK, WF_BUTTON,
     input bump0, bump1, bump2, bump3, bump4, bump5,
