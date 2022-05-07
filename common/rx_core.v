@@ -1,8 +1,3 @@
-// Cheng Zhao
-// FPGA for Robotics Education
-//------------------------------------------------------------------------------
-// Core module for Bluetooth Rx
-
 module Rx_core (
     clk, rst,
     Rx,
