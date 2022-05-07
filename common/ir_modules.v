@@ -1,7 +1,3 @@
-// Eric Schwarz Iglesias
-// irtest_modules.v
-
-//This file contains all instantiated modules for irtest_top.v
 
 module IRcontrol (
     input wire clk,
