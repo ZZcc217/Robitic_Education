@@ -1,29 +1,3 @@
-// Cheng Zhao
-// FPGA for Robotics Education
-//------------------------------------------------------------------------------
-// This is a feedback control system built for controlling the motor speed.
-// inputs:
-//      clk     -- a 16MHz clock
-//      enable  -- active low reset
-//      encoder -- the encoder signal
-//      deg_s   -- desired degrees per second (suggested range: [0, 1440])
-// output:
-//      PWM     -- the pulse width modulation used to drive the motor
-// parameters:
-//      LOG_DIV     -- controls the how frequently the speed is changed.
-//                     The default value (3) means that the speed is adjusted
-//                     every 1/8 seconds (125ms).
-//
-//      LOG_PROP    -- controls how much the speed is changed each time.
-//                     The default value (3) means that we increase or decrease
-//                     the PWM by 8 times the difference between expected and
-//                     achieved degrees each time.
-//
-//      LOG_DERIV   -- controls how much the speed is changed each time.
-//                     The default value (3) means that we increase or decrease
-//                     the PWM by 8 times the derivative of the error each time.
-//
-
 module speedctl2 (
     input clk,
     input enable,
