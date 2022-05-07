@@ -1,4 +1,3 @@
-
 // This file contains the official Pinmap for WebPFGA to TI-RSLK-MAX CHassis board.
 // Even though this file is a Verilog file it only contains the pinmap in a commented
 // format to allow the WebFPGA synthesis engine to parse the comments to set the 
