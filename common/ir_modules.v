@@ -1,4 +1,3 @@
-
 module IRcontrol (
     input wire clk,
     input wire [7:0] channel_sel,
